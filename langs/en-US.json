@@ -1,0 +1,28 @@
+{
+  "Title": "Filmey",
+  "Home_Tab_title": "Home",
+  "Favorite_Tab_title": "Favourites",
+  "Cinema_Tab_title": "Cinemas",
+  "Modal_sheet_title": "Settings",
+  "Save_btn": "Save",
+  "UnFavorite_Msg": "unfavourite {}",
+  "Lang_Settings_label": "Language",
+  "Release_date": "Release Date:",
+  "Vote": "Vote: ",
+  "Vote_degreee": "{}/10 ",
+
+  "Description": "Description:",
+  "Actors": "Actors:",
+  "Videos": "Videos:",
+  "Reviews": "Reviews:",
+  "All_Reviews": "All Reviews",
+  "Alert_title": "Alert",
+  "Alert_content": "To change language,we must clean your Favorite\nAre you Sure?",
+  "Alert_clear": "Clear",
+  "Alert_cancel": "Cancel",
+  "Location_Error": "We need your location",
+  "Internet_Error": "No Internet Connection",
+  "Server_Error": "Sorry, we have something wrong",
+  "Unknown_network_error": "Unexpected error occurred",
+  "Favourite_empty": "You have no Favourites Movies"
+}

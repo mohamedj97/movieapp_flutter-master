@@ -1,0 +1,70 @@
+CREATE TABLE IF NOT EXISTS movies (
+	overview	TEXT,
+	original_title	TEXT,
+	video	INTEGER,
+	title	TEXT,
+	poster_path	TEXT,
+	backdrop_path	TEXT,
+	release_date	TEXT,
+	popularity	TEXT,
+	vote_average	INTEGER,
+	id	INTEGER,
+	adult INTEGER,
+	vote_count	INTEGER,
+	PRIMARY KEY(id)
+);
+#CREATE TABLE IF NOT EXISTS reviews (
+	author	TEXT,
+	id	TEXT NOT NULL UNIQUE,
+		id2	INTEGER,
+
+	content	TEXT,
+	url	TEXT,
+	movieId	INTEGER,
+	PRIMARY KEY(id2),
+	FOREIGN KEY(movieId) REFERENCES movie(id)
+);
+#CREATE TABLE IF NOT EXISTS actors (
+	cast_id	INTEGER,
+	character	TEXT,
+	gender	INTEGER,
+	credit_id	TEXT,
+	name	TEXT,
+	profile_path	TEXT,
+	id	INTEGER,
+	order2 INTEGER,
+    movieId	INTEGER,
+	PRIMARY KEY(id),
+	FOREIGN KEY(movieId) REFERENCES movie(id)
+);
+#CREATE TABLE IF NOT EXISTS trailers (
+	site	TEXT,
+	size	INTEGER,
+	name	TEXT,
+	iso31661	TEXT,
+	id	TEXT UNIQUE,
+	iso6391	TEXT,
+	type	TEXT,
+	key	TEXT,
+	movieId	INTEGER,
+	id2	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	FOREIGN KEY(movieId) REFERENCES movie(id)
+);
+#CREATE TABLE IF NOT EXISTS details (
+	original_language	TEXT,
+	original_title	TEXT,
+	imdb_id	TEXT,
+	runtime	INTEGER,
+	video	INTEGER,
+	title	TEXT,
+	revenue	INTEGER,
+	release_date	TEXT,
+	id	INTEGER,
+	tagline	TEXT,
+	budget	INTEGER,
+	homepage	TEXT,
+	status	TEXT,
+	movieId	INTEGER,
+	PRIMARY KEY(id),
+	FOREIGN KEY(movieId) REFERENCES movie(id)
+);

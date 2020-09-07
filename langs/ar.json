@@ -1,0 +1,24 @@
+{
+  "Title": "فيلمي",
+  "Home_Tab_title": "الرئيسية",
+  "Favorite_Tab_title": "المفضلة",
+  "Cinema_Tab_title": "دور السينما",
+  "Modal_sheet_title": "الإعدادات",
+  "Save_btn": "حفظ",
+  "UnFavorite_Msg": "الغاء اعجاب ب{}",
+  "Lang_Settings_label": "اللغة",
+  "Release_date": "تاريخ الإصدار:",
+  "Vote": "التصويت: ",
+  "Vote_degreee": "{}\/10 ",
+  "Description": "وصف:",
+  "Actors": "طقم التمثيل:",
+  "Videos": "فيديو:",
+  "Reviews": "مراجعات:",
+  "All_Reviews": "جميع المراجعات",
+  "Alert_title": "تنبيه",
+  "Alert_content": "لتغيير اللغة ، يجب علينا تنظيف المفضلة لديك\nهل أنت متأكد؟",
+  "Alert_clear": "مسح",
+  "Alert_cancel": "الغاء",
+  "Location_Error": "We need your location"
+
+}
